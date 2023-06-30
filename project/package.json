@@ -18,6 +18,8 @@
     "react-toastify": "^9.1.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --passWithNoTests",
@@ -78,6 +80,7 @@
     "axios-mock-adapter": "^1.21.2",
     "eslint-config-htmlacademy": "^8.0.0",
     "faker": "^5.5.3",
+    "gh-pages": "^5.0.0",
     "typescript": "^4.8.4"
   }
 }
