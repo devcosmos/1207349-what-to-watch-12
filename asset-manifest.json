@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/1207349-what-to-watch-12/static/css/main.9f251a1b.css",
+    "main.js": "/1207349-what-to-watch-12/static/js/main.cb54e981.js",
+    "index.html": "/1207349-what-to-watch-12/index.html",
+    "main.9f251a1b.css.map": "/1207349-what-to-watch-12/static/css/main.9f251a1b.css.map",
+    "main.cb54e981.js.map": "/1207349-what-to-watch-12/static/js/main.cb54e981.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f251a1b.css",
+    "static/js/main.cb54e981.js"
+  ]
+}
