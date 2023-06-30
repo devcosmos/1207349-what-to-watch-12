@@ -20,7 +20,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <HistoryRouter history={browserHistory}>
+      <HistoryRouter history={browserHistory} basename='1207349-what-to-watch-12'>
         <ToastContainer />
         <App />
       </HistoryRouter>
