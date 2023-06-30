@@ -22,7 +22,6 @@
 - Redux Toolkit, Flux architecture
 - Asynchrony and middleware (Redux Thunk), network access (Axios)
 - Optimization, debugging (React DevTools, Redux DevTools)
-- Testing (Jest, React Testing Library)
 
 ---
 
