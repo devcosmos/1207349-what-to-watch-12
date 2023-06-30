@@ -34,13 +34,6 @@ function ReviewForm({filmId}: ReviewFormProps): JSX.Element {
   const handleFormSubmit = (evt: FormEvent<HTMLFormElement>) => {
     evt.preventDefault();
     dispatch(publishFilmReviewAction(formData));
-    if (publishReviewsStatus === RequestStatus.Fulfilled) {
-      setFormData({
-        rating: 0,
-        comment: '',
-        filmId: filmId,
-      });
-    }
   };
 
   return (
